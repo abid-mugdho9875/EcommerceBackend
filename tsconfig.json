@@ -104,13 +104,13 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true,
-    "types": [
-      "node",
-      "morgan",
-      "cookie-parser"
-    ] /* Skip type checking all .d.ts files. */,
-    "include": ["src/**/*.ts"],
-    "exclude": ["node_modules"]
-  }
+    "skipLibCheck": true
+    // "types": [
+    //   "node",
+    //   "morgan",
+    //   "cookie-parser"
+    // ] /* Skip type checking all .d.ts files. */,
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
 }
